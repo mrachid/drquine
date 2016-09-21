@@ -32,7 +32,7 @@ $(EXO3):
 	@$(CC) $(FLAG) $(SRC3) -o $(EXO3)
 
 clean:
-	@/bin/rm -rf ./ex03/*.c ./ex03/*.o #$(OBJ)
+	@/bin/rm -rf ./ex02/Grace_kid.c ./ex03/*.c ./ex03/*.o #$(OBJ)
 
 fclean: clean
 	@/bin/rm -f $(EXO1) $(EXO2) $(EXO3)
